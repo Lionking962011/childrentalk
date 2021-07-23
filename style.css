@@ -48,7 +48,13 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 
 #output
 {
-	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+	padding: 20px;
+	width:80%;background: rgba(255,255,255,0.8);
+	border-radius: 15px;
+	position: absolute;
+	top: 10px;
+	width: 300px;
+	border: 3px solid green;
 }
 
 .input_div_room_page
@@ -77,12 +83,9 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 .input_div_message_page button
 {
 	margin-top: 15px;
-	width: 50%; 
+	width: 50%;
 }
-.color_white
-{
-	color: white
-}
+
 
 .user_tick
 {
@@ -109,4 +112,35 @@ background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73
 {
 	width: 50%;
 	border-radius: 50px;
+}
+
+#profile
+{
+	width: 20%;
+	height: 20%;
+	margin-left: 60%;
+}
+
+
+#name
+{
+	color: white;
+	font-size: 25px;
+}
+
+#rester_button,#dateofbirth,#tag,#tag1,#profilimg
+{
+	display: none;
+}
+
+#myname
+{
+  width: 30%
+}
+
+#roomimage
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 75px;
 }
